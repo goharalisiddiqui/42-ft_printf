@@ -6,7 +6,7 @@
 /*   By: gsiddiqu <gsiddiqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/24 12:39:12 by gsiddiqu          #+#    #+#             */
-/*   Updated: 2021/07/05 19:49:39 by gsiddiqu         ###   ########.fr       */
+/*   Updated: 2021/07/07 11:54:14 by gsiddiqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,7 @@ char	*ft_printf_flags_arg(char **ptr, int i, va_list *arglst)
 	char	*buff;
 
 	ind = 0;
-	size = ft_printf_flags_argnum(ptr, i, arglst);
+	size = ft_printf_flags_argn(ptr, i, arglst);
 	str = malloc((size + 1) * sizeof(char));
 	while (ind < size)
 	{

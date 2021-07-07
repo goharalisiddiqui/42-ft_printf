@@ -6,7 +6,7 @@
 /*   By: gsiddiqu <gsiddiqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/23 11:02:41 by gsiddiqu          #+#    #+#             */
-/*   Updated: 2021/07/02 18:59:09 by gsiddiqu         ###   ########.fr       */
+/*   Updated: 2021/07/07 11:54:20 by gsiddiqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ int	ft_printf_specx_num(unsigned long n, unsigned long *i)
 	return (numchr);
 }
 
-int	ft_printf_flags_argnum(char **ptr, int i, va_list *arglst)
+int	ft_printf_flags_argn(char **ptr, int i, va_list *arglst)
 {
 	int		size;
 	int		ind;

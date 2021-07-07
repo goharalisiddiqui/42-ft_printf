@@ -6,7 +6,7 @@
 /*   By: gsiddiqu <gsiddiqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/24 16:53:20 by gsiddiqu          #+#    #+#             */
-/*   Updated: 2021/07/05 19:50:03 by gsiddiqu         ###   ########.fr       */
+/*   Updated: 2021/07/07 11:54:01 by gsiddiqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 int		ft_printf(const char *format, ...);
 int		ft_printf_specx_num(unsigned long n, unsigned long *i);
-int		ft_printf_flags_argnum(char **ptr, int i, va_list *arglst);
+int		ft_printf_flags_argn(char **ptr, int i, va_list *arglst);
 int		ft_printf_mfwcalc(char *flags, int *laf, int *zpf);
 int		ft_printf_mfwcalc_qm(char *flags, int *laf, int *zpf);
 int		ft_chrlen(char *str);
